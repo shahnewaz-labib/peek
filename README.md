@@ -1,6 +1,6 @@
 # peek
 
-Ask Gemini a question about a video. Works with a local file or a public YouTube URL.
+Let agents watch, not just look. peek asks Gemini a question about a video file or a public YouTube URL, and prints the answer as text.
 
 ```
 peek clip.mp4 "List each error message on screen, with its mm:ss timestamp."
