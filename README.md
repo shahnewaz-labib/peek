@@ -14,10 +14,20 @@ YouTube URL ──────────────────────�
 
 ## Install
 
+Download a binary from [Releases](https://github.com/shahnewaz-labib/peek/releases), or:
+
 ```
 go install github.com/shahnewaz-labib/peek/cmd/peek@latest
 export GEMINI_API_KEY=...   # https://aistudio.google.com/apikey
 ```
+
+## Release
+
+```
+git tag v0.2.0 && git push origin v0.2.0
+```
+
+The `release` workflow runs the tests, then GoReleaser builds macOS, Linux, and Windows binaries and attaches them to a GitHub Release.
 
 ## Use
 
