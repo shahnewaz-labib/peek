@@ -21,6 +21,16 @@ go install github.com/shahnewaz-labib/peek/cmd/peek@latest
 export GEMINI_API_KEY=...   # https://aistudio.google.com/apikey
 ```
 
+## Agent skill (optional)
+
+Agents can learn peek from `peek --help`. To make an agent reach for peek on its own when it meets a video, install the skill:
+
+```
+cp -r skills/ask-about-video ~/.claude/skills/
+```
+
+The skill also tells the agent to ask before it uploads a file, and to check key details against an extracted frame.
+
 ## Release
 
 ```
